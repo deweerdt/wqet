@@ -144,4 +144,5 @@ static inline ssize_t parse_version_negotiation_packet(struct wqet_version_negot
 err:
     return -1;
 }
+
 #endif /* wqet_h__ */
