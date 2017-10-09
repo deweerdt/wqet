@@ -26,9 +26,13 @@ struct wqet_short_header {
     uint32_t packet_number;
 };
 
+/* packets */
 struct wqet_version_negotiation_packet {
     size_t nr_packets;
     uint32_t versions[];
+};
+
+struct wqet_client_initial_packet {
 };
 
 struct wqet_iov_reader {
